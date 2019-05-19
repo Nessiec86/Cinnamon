@@ -18,11 +18,20 @@ and (min-width : 1224px) {
 }
 
 nav {
+  display: flex;
   background-color: #fffdf3;
 }
 nav div > img {
   width: 28px;
   height: 28px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.title h1 {
 }
 
 .scrolling-wrapper {
@@ -53,4 +62,5 @@ nav div > img {
 #logos div > img {
   width: 200px
 }
+
 
