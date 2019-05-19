@@ -60,7 +60,7 @@ body{
   display: flex;
   justify-content: center;
   text-shadow: -3px 3px 0 #000000;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-weight: 900;
   font-style: normal;
@@ -128,4 +128,24 @@ body{
   height: 50px;
   margin: 0.5rem 1rem 0.5rem 2rem;
 }
+.article-text{
+  display: flex;
+  flex-direction: row;
+  border:1rem;
+  margin: 1rem;
+  justify-content: space-between;
+}
  
+.review{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+#reviews{
+  text-align: center;
+}
+footer{
+  text-align: center;
+  background-color: #ff6161;
+  
+}
