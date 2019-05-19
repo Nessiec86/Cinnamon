@@ -25,6 +25,7 @@ nav div > img {
   width: 28px;
   height: 28px;
 }
+<<<<<<< HEAD
 .title {
   display: flex;
   flex-direction: column;
@@ -33,6 +34,8 @@ nav div > img {
 
 .title h1 {
 }
+=======
+>>>>>>> fedfc446af4d899375b4400137b49e2fb2c0e2d9
 
 .scrolling-wrapper {
   overflow-x: scroll;
