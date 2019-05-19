@@ -17,39 +17,29 @@ and (min-width : 1224px) {
 /* Styles */
 }
 
-.card {
-  margin: 3rem 0;
-  display: flex;
-  width: 1080px;
-  height: 300px;
-  background-color: #ececf2;
-  min-width: 100%;
-  min-height: 200px;
-  overflow-x: auto;
-}
 
-.card::-webkit-scrollbar {
-  display: none;
-}
 
-.card--content-logo {
-  border: solid whitesmoke 5px;
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
 }
-.blue{
+.blue {
+  display: inline-block;
   background-color: blue;
   width : 100%;
   height: 300px;
-
-}
-.yellow {
-  background-color: yellow;
-  width: 100%;
-  height: 300px;
-
 }
 .red {
+  display: inline-block;
   background-color: red;
   width: 100%;
   height: 300px;
-
+}
+.yellow {
+  display: inline-block;
+  background-color: yellow;
+  width: 100%;
+  height: 300px;
 }
