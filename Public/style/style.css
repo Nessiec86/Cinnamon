@@ -35,39 +35,30 @@ body{
   white-space: nowrap;
 
 }
-.blue {
+.card {
   display: inline-block;
-  background-color: blue;
   width : 100%;
   height: 300px;
+  background-color: #fffdf3;
+  text-align: center;
 }
-.red {
-  display: inline-block;
-  background-color: red;
-  width: 100%;
-  height: 300px;
-}
-.yellow {
-  display: inline-block;
-  background-color: yellow{
-    font-family: 'Poppins', sans-serif;
-    color: #fffdf3;
-    text-shadow: 2px 2px black,
-  };
-  width: 100%;
-  height: 300px;
-}
+ 
 
 #logos div > img {
   width: 200px
 }
-.cta {
-  background-color: #ff6161
+.cta div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #ff6161;
+  margin: 0 auto ;
 }
 
 #cta-title{
-  width: 238px;
-  height: 33px;
+  display: flex;
+  justify-content: center;
   text-shadow: -3px 3px 0 #000000;
   font-family: Poppins;
   font-size: 24px;
@@ -79,17 +70,62 @@ body{
   text-align: center;
   color: #fffdf3;
  }
+
+ .cta-content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ .cta-content p {
+   margin: 1rem;
+
+ }
 #hero-btn{
+  width: 113px;
+  height: 48px;
+  border-radius: 8px;
   color: #fffdf3;
   background-color: #000000;
   border: none;
 }
 
  #call-to-action-btn{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: 0 0 0 2rem;
     width: 296px;
     height: 48px;
     border-radius: 8px;
     background-color: #fffdf3;
  }
+.how-it-works{
+  text-align: center;
+}
 
- /* no toque más  */
+.article-image img {
+  width: 360px;
+  height: 320px;
+}
+.how{
+  text-align: center;
+  margin: 2rem 1rem;
+}
+
+.title-product{
+  text-align: center;
+}
+#logos {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  background-color: #fffdf3;
+}
+
+#logos img {
+  width: 100px;
+  height: 50px;
+  margin: 0.5rem 1rem 0.5rem 2rem;
+}
+ 
