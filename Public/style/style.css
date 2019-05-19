@@ -17,7 +17,13 @@ and (min-width : 1224px) {
 /* Styles */
 }
 
-
+nav {
+  background-color: #fffdf3;
+}
+nav div > img {
+  width: 28px;
+  height: 28px;
+}
 
 .scrolling-wrapper {
   overflow-x: scroll;
@@ -48,6 +54,3 @@ and (min-width : 1224px) {
   width: 200px
 }
 
-nav div > img {
-  width: 200px
-}
